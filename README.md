@@ -48,33 +48,15 @@ I have a youtube channel with over 130k views and 500 subscribers. In my channel
 
 ![image](https://github.com/user-attachments/assets/ccdd8f07-0c8e-4889-9caa-71f07c24bb90)
 
-**Other Sources:**
-
-- **VidIQ:** Collected information about how i compared with competitors from the same niche.
-- **SocialBlade:** Gathered general data about my channels performance
-- **Shopify, Spotify, Soundcloud:** Gathered general data about the tracks that were released or leases that were purchased from my instrumentals.
-
 ---
 
 ## **Data Analysis**
 
 These are planned analysis' for the project.
 
-### **Engagement Patterns Over Time**
-
-I analyzed my YouTube channel's activity to identify any patterns in viewer engagement. By examining the days of the week and times of day when my videos receive the most views and interactions, I compared different periods to see if there's a significant difference. This also helped me understand how these patterns align with global audience behavior.
-
 ### **Effort Invested vs. Views and Likes**
 
 To understand how the effort I put into each track affects its performance, I looked at the time spent composing each instrumental (logged from FL Studio) and compared it to the number of views and likes each video received. This helped me see if there's a correlation between the time investment of a track and audience engagement.
-
-### **Predicting Lease Purchases from Watch Time**
-
-I observed that when a video's watch time increases without a corresponding spike in views, it might indicate that an artist is repeatedly listening to the track while writing lyrics. I analyzed these instances to see if there's a pattern that could help predict when a lease purchase is likely to occur in the following weeks.
-
-### **Comparative Analysis with Competitors**
-
-Using data from VidIQ and SocialBlade, I compared my channel's performance with other channels in the same niche. I looked at metrics such as views, subscriber growth, and engagement rates to see where I stand in the market and to identify areas for improvement.
 
 ---
 
