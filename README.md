@@ -90,7 +90,7 @@ To understand how the effort I put into each track affects its performance, I lo
 
 
 5. **Combining FL Studio Data with Video Info**
-   - Imported my time logs from FL Studio into Excel.
+   - Imported my time logs from FL Studio into Excel in minutes form (e.g 126 means 126 minutes spent on a project).
   
      ![image](https://github.com/user-attachments/assets/3e68c0a2-d689-48c6-a878-9e0d10566013)
      
