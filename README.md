@@ -10,7 +10,7 @@
 
 ## **Description**
 
-I have a youtube channel with 137k views and 500 subscribers. In my channel I post instrumental tracks that I compose for artists to write their own lyrics, and release songs if they have purchased the lease for it. I make music as a hobby for about 4 years now, but releasing them and collaborating with new artists from all around the globe is a fairly new thing for me. I decided to make my data science project about a general analysis of my channel & my music.
+I have a youtube channel with 137k views and 535 subscribers. In my channel I post instrumental tracks that I compose for artists to write their own lyrics, and release songs if they have purchased the lease for it. I make music as a hobby for about 4 years now, but releasing them and collaborating with new artists from all around the globe is a fairly new thing for me. I decided to make my data science project about a general analysis of my channel & my music.
 
 ![Ekran görüntüsü 2024-11-30 172626](https://github.com/user-attachments/assets/02af43a0-cc64-4279-82ec-4469a1f6752d)
 
