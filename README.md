@@ -10,7 +10,7 @@
 
 ## **Description**
 
-I have a youtube channel with over 130k views and 500 subscribers. In my channel I post instrumental tracks that I compose for artists to write their own lyrics, and release songs if they have purchased the lease for it. I make music as a hobby for about 4 years now, but releasing them and collaborating with new artists from all around the globe is a fairly new thing for me. I decided to make my data science project about a general analysis of my channel & my music.
+I have a youtube channel with 137k views and 500 subscribers. In my channel I post instrumental tracks that I compose for artists to write their own lyrics, and release songs if they have purchased the lease for it. I make music as a hobby for about 4 years now, but releasing them and collaborating with new artists from all around the globe is a fairly new thing for me. I decided to make my data science project about a general analysis of my channel & my music.
 
 ![Ekran görüntüsü 2024-11-30 172626](https://github.com/user-attachments/assets/02af43a0-cc64-4279-82ec-4469a1f6752d)
 
@@ -38,13 +38,13 @@ I have a youtube channel with over 130k views and 500 subscribers. In my channel
 **YouTube Analytics:**
 
 - **Platform Data:** Utilized YouTube Studio's analytics to collect data on views, likes, comments, watch time, audience retention, and demographic information.
-- **Data Export:** Used the export function to download data for each video in CSV format for detailed analysis.
+- **Data Export:** Scraped the channel information, and video information for my youtube channel. Used Google Cloud API and Youtube Data API for the process.
 
 ![image](https://github.com/user-attachments/assets/b4cb8f36-b985-4b25-a931-8d86247d0b06)
 
 **FL Studio:**
 
-- **Time Tracking:** Logged the number of time spent composing each track.
+- **Time Tracking:** Logged the number of time spent composing each track. Exported in an excel file. The numbers in the .xlsx file represent how many minutes I spent on one track.
 
 ![image](https://github.com/user-attachments/assets/ccdd8f07-0c8e-4889-9caa-71f07c24bb90)
 
@@ -57,6 +57,52 @@ These are analysis' for the project.
 ### **Effort Invested vs. Views, Likes and Comments**
 
 To understand how the effort I put into each track affects its performance, I looked at the time spent composing each instrumental (logged from FL Studio) and compared it to the number of views and likes each video received. This helped me see if there's a correlation between the time investment of a track and audience engagement.
+
+## **Implementation Process**
+
+1. **Getting Channel Info from YouTube API**
+   - Used the YouTube Data API to fetch basic info about my channel, like total views, subscribers, and uploads.
+   - Made an authenticated API request using my API key (which i revoked before uploading the .ipynb file to github).
+
+2. **Getting Video IDs from YouTube API**
+   - Pulled all the video IDs from my channel’s upload playlist using the API.
+   - Saved them in a list for the next steps.
+
+3. **Getting Video Info from YouTube API**
+   - Fetched detailed data for each video ID, like views, likes, comments, and publish dates.
+   - Organized everything into a JSON format.
+
+4. **Putting Data into a DataFrame**
+   - Converted the JSON data into a pandas DataFrame.
+   - Exported it to Excel to combine with FL Studio project times.
+
+5. **Combining FL Studio Data with Video Info**
+   - Imported my time logs from FL Studio into Excel.
+   - Merged it with YouTube video data using the video publish dates.
+
+6. **Analyzing Video Views and Dates**
+   - Looked for trends by plotting views against the publish dates of each video.
+   - Highlighted videos with unusual spikes.
+
+7. **Analyzing FL Studio Times and Dates**
+   - Plotted effort (hours spent) against publish dates to see if my effort increased over time.
+
+8. **Pairplots of Effort, Views, Likes, Comments**
+   - Used `seaborn` to create pairplots of these values to visualize correlations between them.
+
+9. **Scaled Effort and Views Correlation Chart**
+   - Normalized "Effort" and "Views" by multiplying the effort with 100.
+   - Plotted them on the same chart with a regression line to visualize the trend.
+
+10. **Regression Analysis**
+    - Used linear regression to predict views based on effort.
+    - Plotted the regression line on the effort-views chart.
+
+11. **P-Value Analysis**
+    - Ran a hypothesis test to check if effort influences views.
+    - Got a p-value of 0.000, rejected H0 (null hypothesis), and concluded that effort does cause an increase in views.
+
+---
 
 ---
 
