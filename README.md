@@ -102,24 +102,43 @@ To understand how the effort I put into each track affects its performance, I lo
 
 6. **Analyzing Video Views and Dates**
    - Looked for trends by plotting views against the publish dates of each video.
+  
+     ![image](https://github.com/user-attachments/assets/c07fdf69-ac85-4df7-bf89-85ea37673def)
+     
 
 7. **Analyzing FL Studio Times and Dates**
    - Plotted effort (hours spent) against publish dates to see if my effort increased over time.
+  
+     ![image](https://github.com/user-attachments/assets/0cf4acaf-7066-4682-9981-ae6de4512124)
+
 
 8. **Pairplots of Effort, Views, Likes, Comments**
    - Used `seaborn` to create pairplots of these values to visualize correlations between them.
+  
+![image](https://github.com/user-attachments/assets/84a51717-63d6-4e92-be2d-2b50a3b9ac81)
+     
 
 9. **Scaled Effort and Views Correlation Chart**
    - Normalized "Effort" and "Views" by multiplying the effort with 100.
    - Plotted them on the same chart with a regression line to visualize the trend.
+  
+     ![image](https://github.com/user-attachments/assets/970a8507-0b6d-4361-a21d-3f3ff3c14c5a)
+     
 
 10. **Regression Analysis**
     - Used linear regression to predict views based on effort.
     - Plotted the regression line on the effort-views chart.
+   
+
+![image](https://github.com/user-attachments/assets/df520c7b-a1c6-4650-8f02-52710e4f526a)
+
 
 11. **P-Value Analysis**
     - Ran a hypothesis test to check if effort influences views.
     - Got a p-value of 0.000, rejected H0 (null hypothesis), and concluded that effort does cause an increase in views.
+   
+
+![image](https://github.com/user-attachments/assets/8a676c39-6bef-4e22-b838-b45736ed853d)
 
 ---
 
