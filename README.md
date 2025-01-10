@@ -14,6 +14,10 @@ I have a youtube channel with 137k views and 500 subscribers. In my channel I po
 
 ![Ekran görüntüsü 2024-11-30 172626](https://github.com/user-attachments/assets/02af43a0-cc64-4279-82ec-4469a1f6752d)
 
+## **Hypothesis**
+
+My hypothesis is that the more effort I put into composing the track, the better it performs. 
+
 ## **Motivation**
 
 ### **Why Am I Working on This Project?**
