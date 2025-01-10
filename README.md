@@ -91,7 +91,14 @@ To understand how the effort I put into each track affects its performance, I lo
 
 5. **Combining FL Studio Data with Video Info**
    - Imported my time logs from FL Studio into Excel.
+  
+     ![image](https://github.com/user-attachments/assets/3e68c0a2-d689-48c6-a878-9e0d10566013)
+     
    - Merged it with YouTube video data using the video publish dates.
+  
+     ![image](https://github.com/user-attachments/assets/ede65950-06c3-449e-a1dc-8b7eda718d60)
+
+     
 
 6. **Analyzing Video Views and Dates**
    - Looked for trends by plotting views against the publish dates of each video.
