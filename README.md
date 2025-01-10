@@ -69,7 +69,7 @@ To understand how the effort I put into each track affects its performance, I lo
    - Made an authenticated API request using my API key (which i revoked before uploading the .ipynb file to github).
 
 2. **Getting Video IDs from YouTube API**
-   - Pulled all the video IDs from my channel’s upload playlist using the API.
+   - Pulled all the 53 video IDs from my channel’s upload playlist using the API.
    - Saved them in a list for the next steps.
 
 3. **Getting Video Info from YouTube API**
@@ -78,7 +78,7 @@ To understand how the effort I put into each track affects its performance, I lo
 
 4. **Putting Data into a DataFrame**
    - Converted the JSON data into a pandas DataFrame.
-   - Exported it to Excel to combine with FL Studio project times.
+   - Exported it to Excel to combine with FL Studio project times for better implementation.
 
 5. **Combining FL Studio Data with Video Info**
    - Imported my time logs from FL Studio into Excel.
@@ -86,7 +86,6 @@ To understand how the effort I put into each track affects its performance, I lo
 
 6. **Analyzing Video Views and Dates**
    - Looked for trends by plotting views against the publish dates of each video.
-   - Highlighted videos with unusual spikes.
 
 7. **Analyzing FL Studio Times and Dates**
    - Plotted effort (hours spent) against publish dates to see if my effort increased over time.
@@ -107,6 +106,12 @@ To understand how the effort I put into each track affects its performance, I lo
     - Got a p-value of 0.000, rejected H0 (null hypothesis), and concluded that effort does cause an increase in views.
 
 ---
+
+## **Limitations and Future Plans**
+
+Limitations: The FL Studio spent time values may be misleading. For instance if I got a call while composing a track and talked on the phone while the project was open, this analysis would assume that I put unusual effort into that track.
+
+Future Plans: Making a competitive analysis with Youtube channels from similar niches to mine. Analysing what they did with their upload schedule and how much effort they put into their compositions would help me maintain my audience.
 
 ---
 
