@@ -67,18 +67,27 @@ To understand how the effort I put into each track affects its performance, I lo
 1. **Getting Channel Info from YouTube API**
    - Used the YouTube Data API to fetch basic info about my channel, like total views, subscribers, and uploads.
    - Made an authenticated API request using my API key (which i revoked before uploading the .ipynb file to github).
+    
+ ![Ekran görüntüsü 2025-01-10 222013](https://github.com/user-attachments/assets/0b2c9d59-c388-4b08-88c7-c5790bdbad81)
 
 2. **Getting Video IDs from YouTube API**
    - Pulled all the 53 video IDs from my channel’s upload playlist using the API.
    - Saved them in a list for the next steps.
 
+![image](https://github.com/user-attachments/assets/7994fcbb-8d62-4ec7-a5f3-a9baec77de43)
+
 3. **Getting Video Info from YouTube API**
    - Fetched detailed data for each video ID, like views, likes, comments, and publish dates.
    - Organized everything into a JSON format.
 
+![image](https://github.com/user-attachments/assets/006bab4c-176b-4ebc-b79f-4599a4d81174)
+
 4. **Putting Data into a DataFrame**
    - Converted the JSON data into a pandas DataFrame.
    - Exported it to Excel to combine with FL Studio project times for better implementation.
+
+![image](https://github.com/user-attachments/assets/e2a1f1a8-be82-4e3a-9fa1-308b664d1eb9)
+
 
 5. **Combining FL Studio Data with Video Info**
    - Imported my time logs from FL Studio into Excel.
