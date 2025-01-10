@@ -52,9 +52,9 @@ I have a youtube channel with over 130k views and 500 subscribers. In my channel
 
 ## **Data Analysis**
 
-These are planned analysis' for the project.
+These are analysis' for the project.
 
-### **Effort Invested vs. Views and Likes**
+### **Effort Invested vs. Views, Likes and Comments**
 
 To understand how the effort I put into each track affects its performance, I looked at the time spent composing each instrumental (logged from FL Studio) and compared it to the number of views and likes each video received. This helped me see if there's a correlation between the time investment of a track and audience engagement.
 
